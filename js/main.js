@@ -13,14 +13,18 @@ for (let i = 1; i <= 100; i++){
     if ((i % 3 === 0) && (i % 5 === 0)){
         console.log ('FizzBuzz')
         li.innerText = "FizzBuzz"
+        li.classList.add("fizzbuzz");
     } else if (i % 3 === 0){
         console.log ('Fizz')
         li.innerText = "Fizz"
+        li.classList.add("fizz");
     } else if (i % 5 === 0) {
         console.log ('Buzz')
         li.innerText = "Buzz"
+        li.classList.add("buzz");
     } else {
         console.log (i)
+        li.classList.add("default");
     };
     
 };

@@ -1,0 +1,54 @@
+/*------------
+    RESET
+-------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------------
+    COMMONS
+-------------*/
+body{
+    background-color: #1FB0EF;
+    text-align: center;
+}
+.container{
+    display: flex;
+    width: 1200px;
+    height: 100vh;
+    margin: auto;
+    align-items: center;  
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 15px;
+}
+
+.list li{
+    width: calc(100% / 10 - 15px);
+    height: 100px;
+    box-shadow: 0 0 2px 2px;
+    line-height: 100px;
+}
+.default{
+    background-color: #13EF21;
+}
+
+.fizz{
+    background-color: #FFFF00;
+}
+
+.buzz{
+    background-color: #FF9900;
+}
+
+.fizzbuzz{
+    background-color: red;
+}
+
+
